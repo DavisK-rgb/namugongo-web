@@ -1,0 +1,54 @@
+.about-container {
+  width: 1350px;
+  display: flex;
+  flex-direction: column;
+}
+.about-image {
+  background-image: url(./images/namg7.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1350px;
+  height: 400px;
+  padding-top: 0px;
+}
+
+.about-titles {
+  padding-left: 15%;
+  padding-top: 10%;
+  color: rgb(243, 241, 243);
+}
+.about-text {
+  width: 1350px;
+  background-color: honeydew;
+  align-items: center;
+  text-align: center;
+
+  height: 300px;
+}
+.about-inner {
+  width: 80%;
+  align-items: center;
+  padding-left: 10%;
+}
+@media (max-width: 668px) {
+  .about-container {
+    width: 400px;
+  }
+  .about-image {
+    background-image: url(./images/namg7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 400px;
+    height: 180px;
+    padding-top: 0px;
+  }
+
+  .about-text {
+    width: 400px;
+    background-color: honeydew;
+    align-items: center;
+    text-align: center;
+
+    height: 600px;
+  }
+}

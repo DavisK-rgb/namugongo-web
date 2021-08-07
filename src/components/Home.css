@@ -1,0 +1,196 @@
+.home-container {
+  align-items: center;
+  width: 1350px;
+}
+.slide-container {
+  height: 600px;
+  align-items: center;
+}
+.each-slide {
+  max-width: 1350;
+}
+.slide1 {
+  background-image: url(./images/namg5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1350px;
+  height: 600px;
+  display: flex;
+}
+.slide2 {
+  background-image: url(./images/namg2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1350px;
+  height: 600px;
+  display: flex;
+}
+.slide3 {
+  background-image: url(./images/namg6.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1350px;
+  height: 600px;
+  display: flex;
+}
+.inbrief {
+  height: 400px;
+  width: 1350px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.brief-text {
+  text-align: center;
+  width: 1350px;
+  height: 50px;
+  color: blue;
+}
+
+.brief1 {
+  width: 200px;
+  padding: 130px;
+  text-align: center;
+  padding-top: 10px;
+}
+.mission {
+  height: 150px;
+  padding-top: 10px;
+  text-align: center;
+  color: blue;
+  width: 1350px;
+  background-color: honeydew;
+}
+.results {
+  width: 1350px;
+  height: 50px;
+  color: blue;
+  text-align: center;
+  align-items: center;
+  font-family: "Times New Roman", Times, serif;
+  padding-top: 1%;
+}
+.counts-container {
+  width: 1350px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  text-align: center;
+  color: gray;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+.counts {
+  color: rgb(24, 90, 40);
+  font-size: 60px;
+}
+.counts-inner {
+  align-items: center;
+  padding: 40px;
+}
+
+.slider span {
+  padding-left: 900px;
+  padding-top: 300px;
+  font-size: 30px;
+  color: aliceblue;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
+}
+
+@media (max-width: 668px) {
+  .home-container {
+    width: 400px;
+  }
+  .slide-container {
+    height: 200px;
+    align-items: center;
+  }
+  .slide1 {
+    background-image: url(./images/namg5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 400px;
+    height: 180px;
+    display: flex;
+  }
+  .slide2 {
+    background-image: url(./images/namg2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 400px;
+    height: 180px;
+    display: flex;
+  }
+  .slide3 {
+    background-image: url(./images/namg6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 400px;
+    height: 180px;
+    display: flex;
+  }
+  .inbrief {
+    height: 1000px;
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: start;
+  }
+  .brief-text {
+    text-align: center;
+    width: 400px;
+    height: 10px;
+    color: blue;
+    padding: 10px;
+  }
+  .brief1 {
+    width: 90%;
+    padding: 130px;
+    text-align: center;
+    padding-top: 100px;
+    height: 60px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .mission {
+    color: blue;
+    text-align: center;
+    width: 90%;
+    padding: 40px;
+  }
+  .results {
+    width: 380px;
+    height: 50px;
+    color: blue;
+    text-align: center;
+    align-items: center;
+    font-family: "Times New Roman", Times, serif;
+    padding-top: 1%;
+  }
+  .counts-container {
+    width: 340px;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: gray;
+    padding-right: 80px;
+  }
+  .counts-inner {
+    align-items: center;
+    padding-right: 40%;
+    height: 60px;
+  }
+
+  .slider span {
+    padding-left: 150px;
+    padding-top: 60px;
+    font-size: 30px;
+    color: aliceblue;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bolder;
+  }
+}
