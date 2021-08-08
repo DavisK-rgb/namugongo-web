@@ -23,7 +23,7 @@ function Home() {
           </div>
           <div className="each-slide">
             <div className="slide3">
-              <span>LAB ACTIVITY</span>
+              <span>SKY VIEW </span>
             </div>
           </div>
         </Slide>
