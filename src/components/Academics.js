@@ -1,6 +1,6 @@
 import React from 'react'
 import './Academics.css'
-import Iframe from 'react-iframe'
+
 
 function Academics() {
     return (
