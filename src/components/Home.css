@@ -157,8 +157,9 @@
   .mission {
     color: blue;
     text-align: center;
-    width: 90%;
-    padding: 40px;
+    width: 380px;
+    padding: 10px;
+    height: 200px;
   }
   .results {
     width: 380px;
